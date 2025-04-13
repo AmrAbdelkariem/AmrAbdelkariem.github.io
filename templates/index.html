@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmrKhaled</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Your Custom CSS -->
+    <link href="../static/css/styles.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    
+
+</head>
+<body style="background: url('../static/images/cool-background.webp') no-repeat center center fixed; background-size: cover;">
+    <div id="particles-js"></div>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark px-4 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="../templates/index.html" style="font-size: 22px;">AmrKhaled</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light mx-3" href="../templates/index.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light mx-3" href="">Projects</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link text-light mx-3" href="">My resume</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link  text-light mx-3" href="">Blogs</a>
+                    </li>
+                </ul>
+                <button class="btn custom-btn" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Quick About Section -->
+    <div class="container my-5 take-action">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-4 text-center">
+                <img style="height:auto; border-radius: 50%;" alt="" 
+                    src="https://avatars.githubusercontent.com/u/49818525?v=4" 
+                    width="260" height="260" 
+                    class="avatar avatar-user width-full border color-bg-default custom-border">
+                <p class="mt-2 text-center bio-text " style="font-size: 19px; font-weight: bold;">
+                    Amr Khaled
+                </p>                
+                <ul class="vcard-details">
+                    <li class="vcard-detail pt-1 hide-sm hide-md" itemprop="homeLocation">
+                        <svg class="octicon octicon-location" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                            <path d="m12.596 11.596-3.535 3.536a1.5 1.5 0 0 1-2.122 0l-3.535-3.536a6.5 6.5 0 1 1 9.192-9.193 6.5 6.5 0 0 1 0 9.193Zm-1.06-8.132v-.001a5 5 0 1 0-7.072 7.072L8 14.07l3.536-3.534a5 5 0 0 0 0-7.072ZM8 9a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 9Z"></path>
+                        </svg>
+                        <span class="p-label">Unfortunately Egypt</span>
+                    </li>
+                    <li class="vcard-detail pt-1">
+                        <svg width="16" height="16" viewBox="0 0 15.3 15.4">
+                            <path d="M14.5 0H.8a.88.88 0 0 0-.8.9v13.6a.88.88 0 0 0 .8.9h7.3v-6h-2V7.1h2V5.4a2.87 2.87 0 0 1 2.5-3.1h.5a10.87 10.87 0 0 1 1.8.1v2.1h-1.3c-1 0-1.1.5-1.1 1.1v1.5h2.3l-.3 2.3h-2v5.9h3.9a.88.88 0 0 0 .9-.8V.8a.86.86 0 0 0-.8-.8z" fill="currentColor"></path>
+                        </svg>
+                        <a href="https://www.facebook.com/3mr5aled.py" class="Link--primary wb-break-all" target="_blank" rel="noopener noreferrer">3mr5aled.py</a>
+                    </li>
+                    <li class="vcard-detail pt-1">
+                        <svg width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M14.5455 0H1.45455C0.650909 0 0 0.650909 0 1.45455V14.5455C0 15.3491 0.650909 16 1.45455 16H14.5455C15.3491 16 16 15.3491 16 14.5455V1.45455C16 0.650909 15.3491 0 14.5455 0ZM5.05746 13.0909H2.912V6.18764H5.05746V13.0909ZM3.96291 5.20073C3.27127 5.20073 2.712 4.64 2.712 3.94982C2.712 3.25964 3.272 2.69964 3.96291 2.69964C4.65236 2.69964 5.21309 3.26036 5.21309 3.94982C5.21309 4.64 4.65236 5.20073 3.96291 5.20073ZM13.0938 13.0909H10.9498V9.73382C10.9498 8.93309 10.9353 7.90327 9.83491 7.90327C8.71855 7.90327 8.54691 8.77527 8.54691 9.67564V13.0909H6.40291V6.18764H8.46109V7.13091H8.49018C8.77673 6.58836 9.47636 6.016 10.52 6.016C12.6924 6.016 13.0938 7.44582 13.0938 9.30473V13.0909Z" fill="currentColor"></path>
+                        </svg>
+                        <a href="https://www.linkedin.com/in/3mr5aledpy/" class="Link--primary wb-break-all" target="_blank" rel="noopener noreferrer">in/3mr5aledpy</a>
+                    </li>
+                    <li class="vcard-detail pt-1">
+                    <dev style="margin-right: 240px;">
+                        <span style="display: inline-block; width: 8px; height: 8px; border-radius: 50%; background-color: #28a745; margin-left: 6px; "></span>
+                        <span style="padding-left: 4px;">Online</span>
+                    </dev>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-7 text-start" style="margin-left: 20px;">
+                <h2>Hi 👋, I'm <span id="dynamic-text"></span></h2>
+                <h3 class="aboutme" align="left">
+                    I am a dedicated Computer Science engineer with a strong passion for cybersecurity, particularly in penetration testing and ethical hacking.  
+                    <br><br>  
+                    With a problem-solving mindset and a keen eye for detail, I thrive on uncovering potential threats and enhancing security measures.  
+                    <br><br>  
+                    Beyond cybersecurity, I have a deep interest in programming, system administration, and networking.  
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Button -->
+    <div class="text-center scroll-button-container ">
+        <button id="scrollButton" class="btn btn-outline-light">More About Me ↓</button>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">My Cybersecurity Journey</h2>
+            
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-badge"></div>
+                    <div class="timeline-content">
+                        <h4>The Spark </h4>
+                        <p>I used to see technology as a tool for creation and efficiency—like a knife meant for cooking. But then I realized it could also be used for destruction. Systems that power our digital world could be exploited just as easily as they could be secured. This realization ignited my curiosity about cybersecurity, pushing me to explore how things work beneath the surface.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-badge"></div>
+                    <div class="timeline-content">
+                        <h4>Ethical Hacking Awakening </h4>
+                        <p>As I delved deeper into computers, I became fascinated with how systems communicate, store data, and protect information. I started learning about networks, security vulnerabilities, and ethical hacking. The more I explored, the more I saw the thin line between security and exploitation—and I knew I wanted to be on the side that protects.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-badge"></div>
+                    <div class="timeline-content">
+                        <h4>Professional Growth </h4>
+                        <p>Today, I combine my system expertise with offensive security knowledge to build robust defenses while thinking like potential attackers. My focus areas include penetration testing, vulnerability assessment, and secure system architecture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <p class="section-subtitle">What I Offer</p>
+            <h2 class="special-title">What I am currently focused on</h2>
+            
+            <div class="row g-4">
+                <!-- Linux Administration Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-terminal-fill"></i>
+                        </div>
+                        <h3 class="card-title">Linux Administration</h3>
+                        <p class="card-text">Expert management of Linux systems including server configuration, maintenance, and optimization for peak performance and enterprise-grade security.</p>
+                    </div>
+                </div>
+                
+                <!-- Penetration Testing Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-shield-shaded"></i>
+                        </div>
+                        <h3 class="card-title">Penetration Testing</h3>
+                        <p class="card-text">Comprehensive ethical hacking assessments to identify, exploit, and remediate vulnerabilities across systems, networks, and applications.</p>
+                    </div>
+                </div>
+                
+                <!-- Networking Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-hdd-network"></i>
+                        </div>
+                        <h3 class="card-title">Networking</h3>
+                        <p class="card-text">Design and implementation of robust network infrastructures with expertise in routing, switching, firewalls, and protocol analysis.</p>
+                    </div>
+                </div>
+                
+                <!-- Programming Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-code-square"></i>
+                        </div>
+                        <h3 class="card-title">Programming</h3>
+                        <p class="card-text">Full-stack development capabilities across multiple languages and frameworks, creating efficient, scalable software solutions.</p>
+                    </div>
+                </div>
+                
+                <!-- Web Designing Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-layout-text-sidebar-reverse"></i>
+                        </div>
+                        <h3 class="card-title">Web Designing</h3>
+                        <p class="card-text">Creation of responsive, accessible, and visually stunning web interfaces using modern design principles and cutting-edge technologies.</p>
+                    </div>
+                </div>
+                
+                <!-- Cybersecurity Consulting Card -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-lock-fill"></i>
+                        </div>
+                        <h3 class="card-title">Cybersecurity Consulting</h3>
+                        <p class="card-text">Strategic security guidance to help organizations assess risks, develop policies, and implement best practices for comprehensive protection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="footer-sub-list">Genius, philanthropist… <br> just waiting on the billionaire part.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/3mr5aled.py" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/3mr5aled.py/" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.github.com/AmrAbdelkariem" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/3mr5aledpy/" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <p class="text-muted">© 2023 Amr Khaled. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal (placed right before scripts) -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="contactModalLabel">Get In Touch</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>Hi, I'm Amr! Here's how you can reach me:</p>
+            <div class="contact-info">
+                <a href="mailto:amrabdelkariem2@gmail.com"><i class="fas fa-envelope"></i> amrabdelkariem2@gmail.com</a>
+                <a href="tel:+201555183624"><i class="fas fa-phone"></i> +201555183624</a>
+                <a href="https://www.linkedin.com/in/3mr5aledpy/" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/3mr5aledpy/</a>
+                <a href="https://github.com/AmrAbdelkariem" target="_blank"><i class="fab fa-github"></i> github.com/AmrAbdelkariem</a>
+            </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Scripts ---->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Other scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="../static/js/particles.js"></script>
+    <script src="../static/js/contactme.js"></script>
+    <script src="../static/js/typed.js"></script>
+    <canvas class="background"></canvas>
+
+
+</body>
+</html>
